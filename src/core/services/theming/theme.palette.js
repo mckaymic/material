@@ -331,7 +331,7 @@ angular.module('material.core.theming.palette', [])
     '800': '#424242',
     '900': '#212121',
     '1000': '#000000',
-    'A100': '#ffffff',
+    'A100': '#fdfbfb',
     'A200': '#eeeeee',
     'A400': '#bdbdbd',
     'A700': '#616161',
