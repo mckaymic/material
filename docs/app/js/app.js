@@ -154,7 +154,7 @@ function(SERVICES, COMPONENTS, DEMOS, PAGES, $location, $rootScope, $http, $wind
   });
 
   sections.push({
-    name: 'Demos',
+    name: 'Demos!!!',
     pages: demoDocs.sort(sortByName),
     type: 'toggle'
   });
@@ -300,7 +300,7 @@ function(SERVICES, COMPONENTS, DEMOS, PAGES, $location, $rootScope, $http, $wind
   $http.get("/docs.json")
       .success(function(response) {
         var versionId = getVersionIdFromPath();
-        var head = { type: 'version', url: '/HEAD', id: 'head', name: 'HEAD (master)', github: '' };
+        var head = { type: 'version', url: '/HEAD', id: 'head', name: 'HEAD (master)!!!', github: '' };
         var commonVersions = versionId === 'head' ? [] : [ head ];
         var knownVersions = getAllVersions();
         var listVersions = knownVersions.filter(removeCurrentVersion);

@@ -106,9 +106,7 @@
     <md-content flex role="navigation">
       <ul class="docs-menu">
         <li ng-repeat="section in menu.sections" class="parent-list-item {{section.className || ''}}" ng-class="{'parentActive' : isSectionSelected(section)}">
-          <h2 class="menu-heading md-subhead" ng-if="section.type === 'heading'" id="heading_{{ section.name | nospace }}">
-            {{section.name}}
-          </h2>
+
           <menu-link section="section" ng-if="section.type === 'link'"></menu-link>
 
           <menu-toggle section="section" ng-if="section.type === 'toggle'"></menu-toggle>
@@ -150,7 +148,7 @@
           <span flex></span> <!-- use up the empty space -->
 
           <div class="md-toolbar-item docs-tools" layout="row">
-            
+
             </md-button>
 
             <md-select
