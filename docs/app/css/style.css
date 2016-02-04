@@ -26,7 +26,7 @@ body {
  * TYPE DEFAULTS
  ***************/
 a {
-  color: #106CC8;
+  color: #5596e6;
   text-decoration: none;
   font-weight: 400;
   border-bottom: 1px solid rgba(64, 84, 178, 0.25);
@@ -432,16 +432,17 @@ a.docs-logo {
   max-width: 864px;
   margin: 16px;
   box-sizing: border-box;
+
 }
 docs-demo {
   display: block;
   margin-top: 16px;
+
 }
 .doc-description p {
   margin-top: 0;
 }
 .demo-container {
-  border-radius: 4px;
   margin-bottom: 16px;
   -webkit-transition: 0.02s padding cubic-bezier(0.35, 0, 0.25, 1);
   transition: 0.02s padding cubic-bezier(0.35, 0, 0.25, 1);
@@ -541,7 +542,7 @@ md-tabs.demo-source-tabs .active md-tab-label {
 }
 
 md-toolbar.demo-toolbar {
-  border-radius: 3px 3px 0 0;
+
   box-shadow: 0 1px rgba(255, 255, 255, 0.1);
 }
 md-toolbar.demo-toolbar md-tab-label {
@@ -626,7 +627,7 @@ ul.buckets li a:hover,
 ul.buckets li a:focus,
 ul.buckets li a:hover md-icon,
 ul.buckets li a:focus md-icon {
-  color: #106CC8 !important;
+  color: #5596e6 !important;
   background-color: #ebebeb !important;
 }
 /************
@@ -885,6 +886,6 @@ table.md-api-table  tr  td:first-child {
 }
 
 .md-content {
-  background-color: red !important;
+  background-color: #325c80;
 
 }

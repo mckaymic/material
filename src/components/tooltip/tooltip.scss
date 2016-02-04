@@ -13,8 +13,6 @@ md-tooltip {
   z-index: $z-index-tooltip;
   overflow: hidden;
   pointer-events: none;
-  border-radius: 4px;
-
   font-weight: 500;
   font-size: $tooltip-fontsize-sm;
   @media screen and (min-width: $layout-breakpoint-sm) {

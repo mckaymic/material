@@ -12,7 +12,7 @@ angular.module('material.core.theming.palette', [])
     '800': '#c62828',
     '900': '#b71c1c',
     'A100': '#ff8a80',
-    'A200': '#ff5252',
+    'A200': '#325c80',
     'A400': '#ff1744',
     'A700': '#d50000',
     'contrastDefaultColor': 'light',

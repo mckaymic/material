@@ -35,7 +35,7 @@ describe('$mdThemingProvider', function() {
         '800': 'c62828',
         '900': 'b71c1c',
         'A100': 'ff8a80',
-        'A200': 'ff5252',
+        'A200': '325c80',
         'A400': 'ff1744',
         'A700': 'd50000',
         'contrastDefaultColor': 'light',
@@ -163,7 +163,7 @@ describe('$mdThemingProvider', function() {
       expect(themingProvider._PALETTES.extended['100']).toEqual(testPalette['100']);
       expect(themingProvider._PALETTES.extended['50']).toEqual('newValue');
     });
-  }); 
+  });
 
   describe('css template parsing', function() {
     beforeEach(setup);
@@ -481,7 +481,7 @@ describe('md-themable directive', function() {
     $rootScope.themey = 'red';
     var el = $compile('<div md-theme="{{themey}}"><span md-themable md-theme-watch></span></div>')($rootScope);
     $rootScope.$apply();
-    
+
     expect(el.children().hasClass('md-red-theme')).toBe(true);
     $rootScope.$apply('themey = "blue"');
     expect(el.children().hasClass('md-blue-theme')).toBe(true);
@@ -492,7 +492,7 @@ describe('md-themable directive', function() {
     $rootScope.themey = 'red';
     var el = $compile('<div md-theme="{{themey}}"><span md-themable></span></div>')($rootScope);
     $rootScope.$apply();
-    
+
     expect(el.children().hasClass('md-red-theme')).toBe(true);
     $rootScope.$apply('themey = "blue"');
     expect(el.children().hasClass('md-blue-theme')).toBe(false);
