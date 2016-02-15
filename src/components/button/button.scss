@@ -1,4 +1,4 @@
-$button-border-radius: 3px !default;
+$button-border-radius: 0 !default;
 $button-fab-border-radius: 50% !default;
 $button-icon-border-radius: $button-fab-border-radius;
 
@@ -22,6 +22,10 @@ $icon-button-margin: rem(0.600) !default;
 // Fix issue causing buttons in Firefox to be 2px bigger than they should
 button.md-button::-moz-focus-inner {
   border: 0;
+}
+
+.darkBtn {
+  color: #ffffff !important;
 }
 
 .md-button {
@@ -88,6 +92,8 @@ button.md-button::-moz-focus-inner {
       @include md-shadow-bottom-z-1();
     }
   }
+
+
 
   &.md-icon-button {
     margin: 0 $icon-button-margin;
@@ -165,6 +171,9 @@ button.md-button::-moz-focus-inner {
     -webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC');
   }
 }
+
+
+
 
 .md-toast-open-top {
   .md-button.md-fab-top-left,

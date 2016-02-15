@@ -1,11 +1,21 @@
 section {
   background: #f7f7f7;
-  border-radius: 3px;
+  border-radius: 0;
   text-align: center;
   margin: 1em;
   position: relative !important;
   padding-bottom: 10px;
 }
+
+section.dark {
+  background: #152935;
+  border-radius: 0;
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px;
+}
+
 md-content {
   margin-right: 7px;
 }
@@ -19,4 +29,13 @@ section .md-button {
   left: 7px;
   font-size: 14px;
   opacity: 0.54;
+}
+
+.label-dark {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54;
+  color: #ffffff;
 }

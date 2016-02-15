@@ -34,7 +34,7 @@ $input-error-height: 24px !default;
 }
 
 md-autocomplete {
-  border-radius: 2px;
+  border-radius: 0;
   display: block;
   height: 40px;
   position: relative;
@@ -133,7 +133,7 @@ md-autocomplete {
     height: 30px;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
+    border-radius: 0;
     padding: 0;
     font-size: 12px;
     background: transparent;
@@ -145,7 +145,7 @@ md-autocomplete {
       right: -6px;
       bottom: -6px;
       left: -6px;
-      border-radius: 50%;
+      border-radius: 0;
       transform: scale(0);
       opacity: 0;
       transition: $swift-ease-out;

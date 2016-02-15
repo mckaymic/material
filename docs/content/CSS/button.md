@@ -11,14 +11,14 @@ Below is a snapshot of the Angular Material **button** component demos with the 
 <br/>
 ### CSS Styles
 
-The base CSS class for all `<md-button>` components is `.md-button`: 
+The base CSS class for all `<md-button>` components is `.md-button`:
 
 <hljs lang="css">
 .md-button {
   padding: 0 6px 0 6px;
   margin: 6px 8px 6px 8px;
   min-width: 88px;
-  border-radius: 3px;
+  border-radius: 0px;
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
@@ -79,28 +79,28 @@ All Angular Material components have specific CSS rules constructed using the th
 
 <br/>
 
-#### Custom CSS Overrides 
+#### Custom CSS Overrides
 
 ![mdbuttonflatdefault_overrides2](https://cloud.githubusercontent.com/assets/210413/7945987/c1b1c700-0939-11e5-879c-ba804ca03267.png)
 
 
-<hljs lang="html"> 
-<md-button class="btn1"> Button </md-button> 
+<hljs lang="html">
+<md-button class="btn1"> Button </md-button>
 </hljs>
 <hljs lang="css">
-.btn1 { 
+.btn1 {
   color : rgb(49, 46, 46);
   background-color: rgba(255, 222, 121, 0.96);
   border-radius: 10px 0 0 10px;
   font-size: 16px;
 }
 
-.btn1:not([disabled]):hover { 
+.btn1:not([disabled]):hover {
   background-color: rgba(107, 103, 91, 0.96);
   color: white;
 }
 
-.btn1[disabled] { 
+.btn1[disabled] {
   color : rgb(187, 187, 187);
   background-color: rgba(230, 230, 229, 0.96);
 }
@@ -136,7 +136,7 @@ Add the `.md-cornered` class to create a button with corners:
 
 <hljs lang="css">
 .md-button.md-cornered {
-    border-radius: 0; 
+    border-radius: 0;
 }
 </hljs>
 
@@ -167,7 +167,7 @@ Add the `.md-fab` class in order to create a floating action button (aka FAB):
 
 ![minibutton](https://cloud.githubusercontent.com/assets/1292882/7273617/1fcca280-e8fe-11e4-9588-231a9e860be1.PNG)
 
-Add the `.md-mini` class in order to create small, mini-FAB buttons: 
+Add the `.md-mini` class in order to create small, mini-FAB buttons:
 
 <hljs lang="html">
 <md-button class="md-fab md-mini" aria-label="Eat cake">
@@ -203,7 +203,7 @@ Create icon buttons by adding the `.md-icon-button` class and the `<md-icon ...>
     line-height: 4.8rem;
     padding-left: 0;
     padding-right: 0;
-    width: 4.8rem; 
+    width: 4.8rem;
 }
 </hljs>
 
@@ -217,7 +217,7 @@ Here is another example of a button with font icons:
 
 <hljs lang="html">
 <md-button>
- <md-icon md-font-icon="icon-home" 
+ <md-icon md-font-icon="icon-home"
           ng-style="{color: 'green', 'font-size':'36px', height:'36px'}" >
  </md-icon>
 </md-button>
@@ -232,7 +232,7 @@ Here is another example of a button with font icons:
 Using the customization approaches documented above, we can easily create a mdButtonGroup:
 
 <hljs lang="html">
-<section layout="row" layout-sm="column" 
+<section layout="row" layout-sm="column"
          layout-align="center center" >
   <md-button class="groupX left">Apple</md-button>
   <md-button class="groupX middle">Samsung</md-button>

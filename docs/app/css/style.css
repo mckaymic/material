@@ -18,7 +18,7 @@ body {
   max-width: 100%;
   width: 100%;
   border-spacing: 0;
-  border-radius: 2px;
+  border-radius: 0;
   overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ body {
  * TYPE DEFAULTS
  ***************/
 a {
-  color: #5596e6;
+  color: #00b299;
   text-decoration: none;
   font-weight: 400;
   border-bottom: 1px solid rgba(64, 84, 178, 0.25);
